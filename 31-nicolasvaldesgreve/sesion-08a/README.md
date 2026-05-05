@@ -42,11 +42,11 @@ Ahora, para poder crear algo dentro del archivo ``_sch``, tenemos que aprender l
 
 + La tecla ``A`` nos llevará a toda la lista de símbolos, que es en donde encontraremos nuestras resistencias, diodos, chips, etc. Para poder ubicar nuestro símbolo dentro de nuestra hoja técnica, solo hay que hacer click.
 + Para editar la hoja técnica, podemos seleccionar la opción de ``Preferencias de la hoja`` o podemos hacer doble click dentro del mismo lugar y podremos cambiar el tamaño de la hoja, modificar su título, revisión, etc.
-+ Para cambiar el valor a los símbolos, hay que hacerle click y presionar la tecla ``V`` para poder asignarle su valor a cada componente.
++ Para cambiar el valor a los símbolos, hay que hacer click y presionar la tecla ``V`` para poder asignarle su valor a cada componente.
 + Si presionas la tecla ``M`` luego de presionar un símbolo, lo podremos mover a nuestro gusto.
 + Para replicar un símbolo no es necesario volver a buscarlo en la lista de símbolos, sino que podemos hacer ``Ctrl + C`` y ``Ctrl + V``.
 + Si seleccionas un símbolo y presionas la tecla ``R``, éste rotará.
-+ Si seleccionas un símbolo y presionas la tecla ``X``, éste se reflejará respecto a su eje "X", y pasará lo mismo con la tecla ``Y`` respecto a su eje "Y".
++ Si seleccionas un símbolo y presionas la tecla ``X``, éste se refle respecto a su eje "X", y pasará lo mismo con la tecla ``Y`` respecto a su eje "Y".
 
 Luego de aprender todo ésto, nos dieron tiempo para poder completar el esquemático completo del Atari Punk de manera independiente, el cual nos quedó así:
 
