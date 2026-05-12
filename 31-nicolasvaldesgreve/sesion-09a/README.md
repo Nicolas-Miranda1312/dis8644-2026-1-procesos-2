@@ -13,11 +13,25 @@ Para iniciar la materia nos hicieron un repaso rápido de cómo se utiliza KiCad
 + Para asignar huellas de manera más directa, selecciona el símbolo y presiona la tecla ``F`` de _footprint_ (huella)
 + ``Alt + 3`` para entrar al visor 3D
 
-## Capas de cobre
+### Capas de cobre
 
 ``F.Cu`` y ``B.Cu`` son las capas en donde se encuentran las pistas de cobre, las cuales son el equivalente a los cables dentro de nuestra protoboard en donde una trabaja por el lado frontal (``F.Cu``) y la otra trabaja por el lado de atrás (``B.Cu``). Podemos tener distintos anchos en las pistas, los cuales tienen que ser mínimo de 0.3 mm.
 
-Para poder añadir grosores, tenemos que hacerlo en 
+Para poder añadir y editar grosores tenemos que hacerlo en la esquina superior izquierda donde se menciona la "Pista", luego de hacer click nos aparecerá la opción de "Editar tamaños predefinidos..." que es en donde podremos añadir y editar grosores para las pistas.
+
+![Opciones de tamaños](./imagenes/editar-tamano.png)
+
+Cuando hagamos click en la opción que se muestra en la imagen anterior, nos aparecerá que estamos en la sección de ``Reglas de diseño -> Tamaños predefinidos``. Ya estando en éste lugar, tenemos que presionar el símbolo ``+`` que se encuentra en la sección inferior de ``Pistas`` como se muestra en la siguiente imagen:
+
+![Agrego de tamaños](./imagenes/tamanos-predefinidos.png)
+
+Cuando presionamos el símbolo ``+`` ya podremos agregar los tamaños que queremos, que en nuestro caso fue de 0.4mm y 0.8mm.
+
+Como ya tenemos los grosores deseados, podemos empezar a crear las pistas ubicándonos en la capa correspondiente (``F.Cu`` o ``B.Cu``) y seleccionando la herramienta de ``Enrutar Pista Única`` o apretando la tecla ``X``.
+
+![Herramienta para hacer las pistas](./imagenes/enrutar-pista.png)
+
+-------------------------
 
 zonas rellenas en donde ponemos toda la placa
 
