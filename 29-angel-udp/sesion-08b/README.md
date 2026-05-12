@@ -45,7 +45,7 @@ Usaremos 7 capas:
 2 de silkscreen
 2 de mask
 
-### Pistas
+### Pistas en la tarjeta
 
 Placa de fibra de vidrio y tiene una película de fibra de cobre donde se puede pasar una línea de cobre donde yo defina en las **pistas**
 
