@@ -31,15 +31,17 @@ Como ya tenemos los grosores deseados, podemos empezar a crear las pistas ubicá
 
 ![Herramienta para hacer las pistas](./imagenes/enrutar-pista.png)
 
--------------------------
+Luego de aprender ésto, empezamos a hacer las conexiones positivas ya que Misa dijo que es mejor dejar el GND para el final con una herramienta que lo hace más rápido, por lo que seleccionamos la herramienta de ``Enrutar Pista Única`` y empezamos a conectar las cosas a VCC. Para evitar que se toquen las pistas, puedes ir turnandote entre pistas por el lado frontal y el lado trasero, pero en el caso de que aún así no puedas hacerlo sin pasar a llevar otra pista, puedes usar la opción de ``Vías``, las cuales se hacen con la misma opción de enrutar pistas pero cuando quieras cambiar del lado frontal al trasero (o al revés), tienes que presionar la tecla ``V`` y se hará un orificio por donde viajará la pista de una cara de la PCB a la otra. Para poder editar el tamaño de la vía, tenemos que hacer el mismo proceso que se hizo con las pistas solo que ésta vez presionaremos el símbolo ``+`` que está en la columna de ``Vías``.
 
-zonas rellenas en donde ponemos toda la placa
+![Tamaños para vías](./imagenes/editar-vias.png)
 
-propiedades de la zona de cobre y decir que voy a rellenar arriba y abajo con red GND, lo cual hará que todos sean el gnd de todos 
-para cerrar el paso hay que utilizar la letra ``B``, lo cual rellenará todos los espacios de la placa en gnd
+Cuando ya tengamos todos los positivos conectados entre sí, Misa nos indicó que utilicemos la herramienta de ``Dibujar Zonas Rellenas`` que nos aparece al costado derecho o simplemente podemos hacer ``Ctrl + Shift + Z``. 
 
-red es sinónimo de cable
-Vías ``V``
+![Herramienta zonas rellenas](./imagenes/zonas-rellenas.png)
+
+Una vez la seleccionemos, haremos click en nuestra tabla de trabajo y nos aparecerán las propiedades de la zona, en donde tenemos que ponerle un nombre a ésta y luego asignarle el "Nombre de red", en el cual tenemos que seleccionar la opción de ``GND``. Luego de delimitar el espacio (el cual no importa que sea más grande que la PCB con tal de que la abarque por completo) tenemos que presionar la tecla ``B``, lo cual hará que se rellenen todos los espacios en GND.
+
+![Opciones nombre de red](./imagenes/gnd.png)
 
 Para poder montar nuestra PCB a nuestra carcasa, tenemos que hacerle hoyos para poder poner separadores o pernos (los pernos son la opción más barata), por lo que Misa nos recomienda su tamaño predeterminado que es para el perno M3. Para poder añadir los espacios para los pernos, hay que buscar en símbolos la opción de ``Mounting Hole``, en donde 
 mounting hole m3 huella mounting hole 3.2mm (m3)
