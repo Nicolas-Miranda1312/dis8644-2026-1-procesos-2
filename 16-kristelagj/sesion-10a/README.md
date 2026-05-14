@@ -11,6 +11,8 @@ Primero comenzamos hablando sobre lo que había sucedido y que hicieron Aaron y 
 
 https://github.com/misaaaaaa/multiples-musicas
 
+“Pivotear en torno a productores y sellos”  “seguir sellos, en vez de música” ¿todo el peso de que te guste una canción es solo del artista que lo interpreta? es una muy buen apregunta, ya que el el/ella/elle es la cara visible, lo que tu ves y te gusta o te hace seguir escuchando, pero si es que te gusta tanto la forma en que está compuesta una canción/tema/pieza musical porque no seguir a las personas que estuvieron detrás de eso, ya que el artista que lo interpreta no siempre va a tocar el mismo estilo y a partir de esto, podrás descubrir más música fundamentada en tus gustos y volvemos al punto anterior, sin algoritmos que te quieren lavar el cerebro y que escuches las nuevas tendencias. Hay veces que yo escucho nuevas cosas porque sigo casas de diseño y me gusta mucho el trabajo detrás, otro tipo de algoritmo vivo.
+
 
 ### clase
 
