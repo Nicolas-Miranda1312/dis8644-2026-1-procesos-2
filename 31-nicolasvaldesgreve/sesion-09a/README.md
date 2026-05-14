@@ -73,7 +73,9 @@ Una vez ya agregadas las huellas, di el esquemático por terminado y quedó así
 
 ![Esquemático 555 sintetizador "Tincado"](./imagenes/clock-synth-tincado.jpg)
 
-Como ya todos los símbolos tenían sus huellas asignadas, pasé todos los elementos al modo placa para poder empezar a editar mi PCB. Como tamaño elegí hacer un rectángulo de 90 x 55 mm (tamaño de tarjeta de presentación) y dejé las puntas redondeadas con un radio de 7mm. Como ya tenía el límite definido, empecé a ordenar los componentes y luego hice las pistas de cobre de todos los positivos para dejar los negativos al final. Cuando terminé de hacer las pistas, me di cuenta que no había cambiado su tamaño por lo que borré todo (que no es mucho la verdad) y lo hice con los tamaños que utilizamos durante la clase, lo que me dejó la duda de si es posible editar el tamaño después de haber hecho todas las pistas o si necesariamente tiene que ser antes de partir con todo. Cuando terminé de hacer las pistas (incluyendo las que tienen vías) quise poner un vector ya que se veía muy vacío el lado derecho de la placa, por lo que seguí los pasos que nos mostraron en clases y puse un vector de snoopy junto a una de las frases que más usan los fans de Peanuts, lo cual quedó así:
+Como ya todos los símbolos tenían sus huellas asignadas, pasé todos los elementos al modo placa para poder empezar a editar mi PCB en la cual como tamaño elegí hacer un rectángulo de 90 x 55 mm (tamaño de tarjeta de presentación) y dejé las puntas redondeadas con un radio de 7mm. Como ya tenía el límite definido, empecé a ordenar los componentes para luego formar las pistas de cobre de todos los positivos para dejar los negativos al final. Cuando terminé de hacer las pistas, me di cuenta que no había cambiado el tamaño del ancho por lo que borré todo (que no es mucho la verdad, sonó súper dramático) y lo hice con los tamaños que utilizamos durante la clase (0.4mm y 0.8mm), lo que me dejó la duda de si es posible editar el ancho después de haber hecho todas las pistas o si necesariamente tiene que ser antes de partir con todo.
+
+Cuando terminé de hacer las pistas (incluyendo las que tienen vías) quise poner un vector ya que se veía muy vacío el lado derecho de la placa, por lo que seguí los pasos que nos mostraron en clases y puse un vector de snoopy junto a una de las frases que más usan los fans de Peanuts, lo cual quedó así:
 
 ![Lado frontal de la PCB](./imagenes/pistas-frontales.png)
 
@@ -82,3 +84,29 @@ Como ya todos los símbolos tenían sus huellas asignadas, pasé todos los eleme
 ![PCB por ambos lados](./imagenes/total-pcb.png)
 
 ![Render PCB](./imagenes/pcb-render.png)
+
+Como mencioné anteriormente, decidí hacer el esquemático del amplificador (chip lm386), en el cual no tuve problemas mientras hacía el esquemático pero si me quedó la duda de qué huella tenía que asignarle al parlante que lleva este circuito, por lo que me metí al archivo de KiCad que hicimos (el del Atari Punk) y vi que al parlante le tenía asignada la misma huella que tenía la batería, lo cual no me convenció mucho ya que puede que me haya equivocado pero de igual manera lo dejé así en éste archivo en caso de que yo esté mal.
+
+En éste esquemático no hicimos ningún cmbio, por lo que está igual al que nos entregó Misa y se ve así:
+
+![Esquemático chip lm386](./imagenes/amp-tincado.jpg)
+
+Cuando pasé todo al editor de placas, ordené los componentes y ésta vez al momento de hacer las pistas si me fijé en cambiar el ancho de éstas, en donde me di cuenta de que se pueden importar las configuraciones de otras placas!! la verdad en mi caso no era tan necesario hacerlo ya que no me demoro mucho agregar los tamaños que quiero, pero de igual manera nos puede ahorrar tiempo en caso de que tengamos que agregar muchas características que ya tengamos en otro proyecto! ésto se hace dentro del cuadro de ``Configuración de la placa`` -> ``Importar configuración de otra placa...`` en donde tienes que seleccionar el archivo del cual quieras importar sus configuraciones y qué cosas en específico quieres traer.
+
+Cuando ya tenía las pistas listas, decidí agregar vectores a la PCB como lo hice en la aterior pero ésta vez quería que tuviera ilustraciones por ambos lados, no solo por el frontal. Para esta placa decidí poner vectores que se parezcan a mi hermano chico (es un perro y se llama Mailo) que me estaba acompañando mientras hacía estos esquemáticos y quería hacerle un homenaje ya que me ayudó con sus buenas vibras (estaba durmiendo, no hizo nada aparte de patearme el compu).
+
+Para poder tener los vectores en ambos lados de la placa, ubiqué uno en la capa de cobre frontal y el otro en la capa de cobre trasero, pero cuando vi el render 3D me di cuenta que no aparecía el que había puesto en la parte frontal, por lo que asumí que no se podía ya que en esa misma capa tenía el relleno para tener GND en toda la placa, por lo que se veía así.
+
+![Dibujo en parte trasera de la placa](./imagenes/dibujo-trasero.png)
+
+![Dibujo en la parte frontal que no se ve jaja](./imagenes/frontal-no-se-ve.png)
+
+Como se puede ver el render 3D, en la parte frontal no se ve nada del vector que puse dentro del editor de placas en donde se ve así:
+
+![Pistas frontales](./imagenes/pista-frontal.png)
+
+![Pistas traseras](./imagenes/pista-trasera.png)
+
+Como no se veía y asumí que era por la capa en la que estaba ubicada, decidí probar poniendo el vector en la capa de ``F.Paste`` la cual también se ubica en el lado frontal de la placa y cuando me metí al visor 3D se veía así:
+
+![Placa con vector frontal yipiiii](./imagenes/cambio-de-capa.png)
