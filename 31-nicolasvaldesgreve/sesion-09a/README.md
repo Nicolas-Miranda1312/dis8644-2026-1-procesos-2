@@ -31,7 +31,7 @@ Como ya tenemos los grosores deseados, podemos empezar a crear las pistas ubicá
 
 ![Herramienta para hacer las pistas](./imagenes/enrutar-pista.png)
 
-Luego de aprender ésto, empezamos a hacer las conexiones positivas ya que Misa dijo que es mejor dejar el GND para el final con una herramienta que lo hace más rápido, por lo que seleccionamos la herramienta de ``Enrutar Pista Única`` y empezamos a conectar las cosas a VCC. Para evitar que se toquen las pistas, puedes ir turnando entre el lado frontal y el lado trasero, pero en el caso de que aún así no puedas hacerlo sin pasar a llevar otra pista, puedes usar la opción de ``Vías``, las cuales se hacen con la misma opción de enrutar pistas pero cuando quieras cambiar del lado frontal al trasero (o al revés), tienes que presionar la tecla ``V`` y se hará un orificio por donde viajará la pista de una cara de la PCB a la otra. Para poder editar el tamaño de la vía, tenemos que hacer el mismo proceso que se hizo con las pistas solo que ésta vez presionaremos el símbolo ``+`` que está en la columna de ``Vías``.
+Luego de aprender ésto, empezamos a hacer las conexiones positivas ya que Misa dijo que es mejor dejar el GND para el final con una herramienta que lo hace más rápido, por lo que seleccionamos la herramienta de ``Enrutar Pista Única`` y empezamos a conectar las cosas a VCC. Para evitar que se toquen las pistas, puedes ir turnando entre el lado frontal y el lado trasero, pero en el caso de que aun así no puedas hacerlo sin pasar a llevar otra pista, puedes usar la opción de ``Vías``, las cuales se hacen con la misma opción de enrutar pistas, pero cuando quieras cambiar del lado frontal al trasero (o al revés), tienes que presionar la tecla ``V`` y se hará un orificio por donde viajará la pista de una cara de la PCB a la otra. Para poder editar el tamaño de la vía, tenemos que hacer el mismo proceso que se hizo con las pistas solo que esta vez presionaremos el símbolo ``+`` que está en la columna de ``Vías``.
 
 ![Tamaños para vías](./imagenes/editar-vias.png)
 
@@ -85,15 +85,15 @@ Cuando terminé de hacer las pistas (incluyendo las que tienen vías) quise pone
 
 ![Render PCB](./imagenes/pcb-render.png)
 
-Como mencioné anteriormente, decidí hacer el esquemático del amplificador (chip lm386), en el cual no tuve problemas mientras hacía el esquemático pero si me quedó la duda de qué huella tenía que asignarle al parlante que lleva este circuito, por lo que me metí al archivo de KiCad que hicimos (el del Atari Punk) y vi que al parlante le tenía asignada la misma huella que tenía la batería, lo cual no me convenció mucho ya que puede que me haya equivocado pero de igual manera lo dejé así en éste archivo en caso de que yo esté mal.
+Como mencioné anteriormente, decidí hacer el esquemático del amplificador (chip lm386), en el cual no tuve problemas mientras hacía el esquemático pero si me quedó la duda sobre qué huella tenía que asignarle al parlante que lleva este circuito, por lo que me metí al archivo de KiCad que hicimos (el del Atari Punk) y vi que al parlante le tenía asignada la misma huella que tenía la batería, lo cual no me convenció mucho ya que puede que me haya equivocado pero de igual manera lo dejé así en éste archivo en caso de que yo esté mal.
 
-En éste esquemático no hicimos ningún cmbio, por lo que está igual al que nos entregó Misa y se ve así:
+En éste esquemático no hicimos ningún cambio, por lo que está igual al que nos entregó Misa y se ve así:
 
 ![Esquemático chip lm386](./imagenes/amp-tincado.jpg)
 
-Cuando pasé todo al editor de placas, ordené los componentes y ésta vez al momento de hacer las pistas si me fijé en cambiar el ancho de éstas, en donde me di cuenta de que se pueden importar las configuraciones de otras placas!! la verdad en mi caso no era tan necesario hacerlo ya que no me demoro mucho agregar los tamaños que quiero, pero de igual manera nos puede ahorrar tiempo en caso de que tengamos que agregar muchas características que ya tengamos en otro proyecto! ésto se hace dentro del cuadro de ``Configuración de la placa`` -> ``Importar configuración de otra placa...`` en donde tienes que seleccionar el archivo del cual quieras importar sus configuraciones y qué cosas en específico quieres traer.
+Cuando pasé todo al editor de placas, ordené los componentes y ésta vez al momento de hacer las pistas si me fijé en cambiar el ancho de éstas, en donde me di cuenta de que se pueden importar las configuraciones de otras placas!! la verdad en mi caso no era tan necesario hacerlo ya que no me demoro mucho agregar los tamaños que quiero, pero de igual manera nos puede ahorrar tiempo en caso de que tengamos que agregar muchas características que ya tengamos en otro proyecto! ésto se hace dentro del cuadro de ``Configuración de la placa`` -> ``Importar configuración de otra placa...`` en donde tienes que seleccionar el archivo del cual quieras importar sus configuraciones y qué cosas en específico quieres traer a tu proyecto actual.
 
-Cuando ya tenía las pistas listas, decidí agregar vectores a la PCB como lo hice en la aterior pero ésta vez quería que tuviera ilustraciones por ambos lados, no solo por el frontal. Para esta placa decidí poner vectores que se parezcan a mi hermano chico (es un perro y se llama Mailo) que me estaba acompañando mientras hacía estos esquemáticos y quería hacerle un homenaje ya que me ayudó con sus buenas vibras (estaba durmiendo, no hizo nada aparte de patearme el compu).
+Cuando ya tenía las pistas listas, decidí agregar vectores a la PCB como lo hice en la anterior pero ésta vez quería que tuviera ilustraciones por ambos lados, no solo por el frontal. Para esta placa decidí poner vectores que se parezcan a mi hermano chico (es un perro y se llama Mailo) que me estaba acompañando mientras hacía estos esquemáticos, por lo que quería hacerle un homenaje ya que me ayudó con sus buenas vibras (estaba durmiendo, no hizo nada aparte de patearme el compu).
 
 Para poder tener los vectores en ambos lados de la placa, ubiqué uno en la capa de cobre frontal y el otro en la capa de cobre trasero, pero cuando vi el render 3D me di cuenta que no aparecía el que había puesto en la parte frontal, por lo que asumí que no se podía ya que en esa misma capa tenía el relleno para tener GND en toda la placa, por lo que se veía así.
 
@@ -111,11 +111,15 @@ Como no se veía y asumí que era por la capa en la que estaba ubicada, decidí 
 
 ![Placa con vector frontal yipiiii](./imagenes/cambio-de-capa.png)
 
+La verdad no estoy seguro de si está bien que quede un vecrtor en esa capa ya que no sé qué material iría en esa parte, pero de momento me gusta el hecho de que se vea en el render 3D.
+
 Mientras sacaba screenshots para documentar mi proceso, intenté descargar el pdf de la placa al igual como lo hice con el esquemático para que se vea más limpio y no tener que mostrarlo mediante screenshots, pero al momento de presionar para ver la previsualización del pdf me salió esto:
 
 ![Previsualización de pdf PCB](./imagenes/vista-pdf.png)
 
 La verdad no entiendo por qué se ve así, pero me gustaría saber si hay alguna manera en la cual uno pueda sacar el pdf de la placa y que se puedan apreciar las pistas que ésta tiene.
+
+---
 
 ### Hacia una filosofía de la fotografía
 
