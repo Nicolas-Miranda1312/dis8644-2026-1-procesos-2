@@ -34,6 +34,21 @@ En este minuto de mi vida estoy experimentando muchas cosas y esta es una de ell
 
 -----
 
+- KICAD
+
+Esta es la interfaz que nos presenta kicad cuando queremos iniciar un proyecto. 
+El esquemático/símbolos es el formato _sch
+El pcb es formato _pcb 
+
+Con estos dos formatos nos bastan ya que son los que utilizaremos, también puedes instalar plantillas. 
+
+El formato kicad es kicad_pro.
+
+El primer paso que debemos desarrollar es crear la partitura que nos guiará en todo nuestro proceso que es el esquemático, pero antes de ello será modificar nuestro espacio de trabajo a nuestro gusto o comodidad en preferencias>preferencias>ratón y panel táctil
+
+Después de eso, comenzaremos a colocar símbolos. Con comando A pasaremos a la herramienta “símbolos”
+
+En kicad se trabaja con una hoja técnica, muy típica —relacionado en el mundo del diseño— con lo que hacen los diseñadores industriales, la cual contiene un viñera y esa se puede modificar en la zona superior en la opción “configuración de esquema”
 
 
 
