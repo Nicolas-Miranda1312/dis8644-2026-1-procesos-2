@@ -111,7 +111,7 @@ Como no se veía y asumí que era por la capa en la que estaba ubicada, decidí 
 
 ![Placa con vector frontal yipiiii](./imagenes/cambio-de-capa.png)
 
-La verdad no estoy seguro de si está bien que quede un vecrtor en esa capa ya que no sé qué material iría en esa parte, pero de momento me gusta el hecho de que se vea en el render 3D.
+La verdad no estoy seguro de si está bien que quede un vector en esa capa ya que no sé qué material iría en esa parte, pero de momento me gusta el hecho de que se vea en el render 3D.
 
 Mientras sacaba screenshots para documentar mi proceso, intenté descargar el pdf de la placa al igual como lo hice con el esquemático para que se vea más limpio y no tener que mostrarlo mediante screenshots, pero al momento de presionar para ver la previsualización del pdf me salió esto:
 
