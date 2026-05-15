@@ -53,3 +53,4 @@ Por último sé que en F.Silkscreen y B.Silkscreen puedo agregar un dibujo o tex
 ![imagen 5](./imagenes/imagen5.png)
 ![imagen 6](./imagenes/imagen6.png)
 
+Lo que más aprendí fue interiorizar de una mejor manera cómo hacer las pistas, que no es tan confuso en verdad. Lo que sí puede complicarme un poco son los detalles en todas las herramientas porque hay muchas y hay varias que no usamos que a lo mejor puedan funcionarnos mejor o sería mejor no tocar para no dañar el archivo por equivocación.
