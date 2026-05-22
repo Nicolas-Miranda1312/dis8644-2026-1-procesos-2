@@ -2,7 +2,7 @@
 
 Clase 22 de mayo
 
-## ** TRABAJO EN CLASES DEL EXAMEN**
+## ** TRABAJO EN CLASES PROYECTO 02**
 
 | Paso | Proceso |
 |------|----------|
