@@ -12,6 +12,8 @@ Modificación del oscilador
 
 ## Chip 4046 (PLL – Phase Locked Loop)
 
+![4046](./imagenes/4046.png).
+
 -Es un circuito integrado CMOS que incluye un oscilador controlado por voltaje (VCO) y dos comparadores de fase.
 
 -El VCO se controla con un voltaje en el pin 9 y entrega la salida en el pin 4.
@@ -42,4 +44,4 @@ Los comparadores de fase permiten sincronizar con una señal externa si se quier
 
 Para usarlo como oscilador independiente, basta con configurar el VCO con los componentes externos adecuados.
 
-
+Cap 6 y 7 
