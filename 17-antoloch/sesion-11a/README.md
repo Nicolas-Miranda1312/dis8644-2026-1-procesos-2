@@ -1,7 +1,8 @@
 # sesion-11a
 hablamos sobre el cap 2 y 3
 
-fuimos a la charla 
+fuimos a la charla “For Want of (Not) Measuring”
+
 -El proyecto comenzó en 2022.
 
 -La medición y cómo, a veces, decidimos no medir.
@@ -38,4 +39,41 @@ Jim produjo vinilos con mica que generan sonido, como una canción.
 
 -Más que medir, le interesa el concepto de nube.
 
-Me pareció super interesante cómo los artistas invitan a mirar más allá de los objetos y de los sistemas para los que fueron creados. Aunque a veces las explicaciones podían resultar un poco confusas, era impresionante ver el entusiasmo y el amor que tenían hacia sus proyectos. Esa pasión hacía que todo cobrara sentido y que uno se sintiera parte de la búsqueda: no solo medir el mundo, sino también imaginarlo, cuestionarlo y abrirlo a nuevas interpretaciones.
+Me pareció super interesante cómo los artistas invitan a mirar más allá de los objetos y de los sistemas para los que fueron creados. Aunque a veces las explicaciones podían resultar un poco confusas, era impresionante ver el entusiasmo y el amor que tenían hacia sus proyectos. Esa pasión hacía que todo cobrara sentido y que uno se sintiera parte de la búsqueda: no solo medir el mundo, sino también imaginarlo, cuestionarlo y abrirlo a nuevas interpretaciones. 
+
+Clase 
+- **VCC**: límite superior de voltaje. Nunca se puede superar; todo ocurre entre **GND → VCC**.  
+- **Relación voltaje–frecuencia**:  
+  - Menor voltaje → frecuencia más lenta.  
+  - Mayor voltaje → frecuencia más rápida.  
+- **Cajas negras**: módulos que se encadenan uno tras otro, cada uno con una función específica.
+
+
+### Divisor de voltaje
+- Dos resistencias complementarias.  
+- Ejemplo: `Ra + Rb = 100k`.  
+- Entrada `Vi` → salida modulada a otro voltaje.
+
+### VCO (Voltage Controlled Oscillator)
+- Convierte voltaje de control en frecuencia.  
+- Ejemplo: **CD4046** (PLL con VCO integrado).  
+- Caja negra: voltaje bajo → frecuencia lenta; voltaje alto → frecuencia rápida.
+
+### CD4093
+- Oscilador con resistencias (LDR, potenciómetro, fija
+- Genera frecuencia variable según resistencia/voltaje.
+
+### CD4022 y CD4017
+- Ambos son contadores Johnson.  
+- **4017**: 10 salidas secuenciales (decodificador decimal).  
+- **4022**: 8 salidas secuenciales (octal).  
+- Diferencia principal: número de pasos antes de reiniciar.
+
+- **TL074**: cuádruple op-amp JFET, bajo ruido, ideal para audio.  
+- **LM741**: clásico op-amp simple, limitado en ancho de banda.  
+- **LM358**: doble op-amp, funciona con alimentación simple (0–VCC).  
+- **LM324**: cuádruple op-amp, también apto para alimentación simple.
+
+
+
+Cap 4 y 5
