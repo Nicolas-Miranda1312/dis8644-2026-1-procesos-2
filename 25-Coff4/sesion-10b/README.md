@@ -124,23 +124,14 @@ Pero saber sacar fotos no necesariamente te hace un fotógrafo experto ni saber 
 
 Por eso, muchas fotografías reflejan más el programa de la cámara que las intenciones de quien la utiliza
 
-Conteo enumerado *Extracto del texto*
-
-- 1 El universo fotográfico es el producto de un juego de *combinaciones* éste ha sido programado y significa su programa.
-
-- 2 Segundo, el juego es automático; no obedece a una estrategia deliberada.
-
-- 3 Tercero, el universo fotográfico está compuesto de fotografías claras y distintas; cada una de ellas significa un punto específico del programa.
-
-- 4 Cuarto, cada fotografía es una superficie, una imagen, que sirve de modelo para la conducta de su receptor.
-
-*En resumen, el universo fotográfico es un medio para programar en la sociedad una conducta retroalimentadora en función de un juego de combinaciones*
-
 Entre tanto texto, las imagenes han obtenido más importancia a la hora de atender la realidad
 
 tipo como: "Una imagen vale más que mil palabras"
 
 Por eso es más probable que la gente acepte más las imágenes sin analizarlas ni cuestionarlas, dejandonos sin pensamiento critico al largo plazo, dejandonos influir por lo que otros quieran darnos...que mundo retorcido en el que vivimos.
+
+
+*Me lei de más y termine poniendo parte del cap 8 en el 7...que cosas Xd*
 
 
 
