@@ -28,13 +28,13 @@ Herramienta (extensión del cuerpo) - máquina - aparato
 
 ### post-clase
 
-* capítulo 4: acto de fotografiar *
+*capítulo 4: acto de fotografiar*
 
 Flusser nos menciona en este capítulo que el fotógrafo no es libre de tomar decisiones. Tiene la posibilidad de realizar ciertas cosas, pero trabaja a partir de las limitaciones del aparato que es programado que tiene reglas y el humano debe explorarlas. Las mejores fotografías son las que logran producir algo inesperado.
 
 El fotógrafo no captura la realidad.
 Por otro lado, el fotógrafo busca imágenes que no se hayan visto antes, no es de su interés repetir fotografías ya existentes, el quiere imágenes nuevas, será para él una búsqueda constante de posibilidades ocultas dentro de la cámara.
-* capítulo 5: la fotografía *
+*capítulo 5: la fotografía*
 
 El autor se comienza a cuestionar la creencia de que la fotografía es la copia de la realidad, siendo símbolos codificados. 
 
