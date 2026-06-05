@@ -137,6 +137,6 @@ El grupo 03 (osciladores 01), nos ayudó prestandonos 2 potenciómetros que se n
 
 - Williams, E. (2015, 23 de febrero). Logic noise: The switching sequencer has the beat. Hackaday. https://hackaday.com/2015/02/23/logic-noise-the-switching-sequencer/ 
 
-Schauer, K. (2021, 18 de noviembre). Demostración del retransmisor de comunicaciones láser de la NASA: Seis cosas que necesitas saber. NASA. https://www.nasa.gov/feature/goddard/2021/demostraci-n-del-retransmisor-de-comunicaciones-l-ser-de-la-nasa-seis-cosas-que-necesitas/ 
+- Schauer, K. (2021, 18 de noviembre). Demostración del retransmisor de comunicaciones láser de la NASA: Seis cosas que necesitas saber. NASA. https://www.nasa.gov/feature/goddard/2021/demostraci-n-del-retransmisor-de-comunicaciones-l-ser-de-la-nasa-seis-cosas-que-necesitas/ 
 
 
