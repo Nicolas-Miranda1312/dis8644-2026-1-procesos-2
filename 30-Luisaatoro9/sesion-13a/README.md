@@ -108,3 +108,5 @@ Entramos al tema de cómo "vestir" el proyecto para que no parezca solo un exper
 * **Impresión 3D:** También es una opción válida para la carcasa.
 
 Vimos referentes de carcasas (Macumbista, Corazón Robota, Victor Mazón) y opciones de montaje como las Hammond Boxes de Katode o el uso de separadores y pernos M3. El enfoque es la experiencia de usuario y ser capaces de justificar cada decisión de diseño ante la comisión.
+
+El examen vale un 50% de la nota final, los profes en esta situación son nuestros abogados en caso de que algo no se entienda al momento de que expliquemos el trabajo. 
