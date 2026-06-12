@@ -1,5 +1,5 @@
 # sesion-14a
-Martes 16 de junio del 2026 - Lectura - Continuación Examen
+Martes 16 de junio del 2026 - Lectura - Continuación Proyecto 3 / Examen
 # Lectura 
 ### Capítulos 5 y 6 (Objeto y Cine)
 
