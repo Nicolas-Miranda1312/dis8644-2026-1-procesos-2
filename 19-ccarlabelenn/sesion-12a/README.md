@@ -1,6 +1,6 @@
 # sesion-12a
 
-## Últuma clase antes de la entrega pipipipi
+## Última clase antes de la entrega pipipipi
 
 Esta fue la última clase antes de la entrega. Determinamos que otro día nos reuniríamos para trabajar en el proyecto. La verdad, fue un trabajo largo. Nos dividimos algunas tareas para poder lograrlo y quitarnos un poco de peso como grupo.
 
