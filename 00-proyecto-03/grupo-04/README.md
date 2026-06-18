@@ -17,6 +17,7 @@ Lo que veremos en esta presentación:
 2. ensamblaje de 3 PCBs de las que hayan participado en su diseño
 3. propuesta de 2 partituras para performance de 5 minutos con el sintetizador diseñado
 
+Comencemos c:
 
 ## 1. lista de materiales (bom), incluyendo cantidades, placa, presupuesto, stock
 
