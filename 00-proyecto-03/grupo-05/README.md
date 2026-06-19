@@ -80,8 +80,8 @@ Integrantes:
 
 ### Propuesta 1
 
-![partitura portada](./imagenes/partitura1.png)
-![partitura pasos](./imagenes/partitura2.jpg)
+![partitura 3 portada](./imagenes/partituraexterior.jpg)
+![partitura 3 ](./imagenes/partitura-interior.jpg)
 
 ### Propuesta 2
 
@@ -90,8 +90,8 @@ Integrantes:
 
 ### Propuesta 3 
 
-![partitura 3 portada](./imagenes/partituraexterior.jpg)
-![partitura 3 ](./imagenes/partitura-interior.jpg)
+![partitura portada](./imagenes/partitura1.png)
+![partitura pasos](./imagenes/partitura2.jpg)
 
 
 
