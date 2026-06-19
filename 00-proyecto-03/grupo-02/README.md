@@ -351,6 +351,12 @@ El punto más relevante de lo que queremos hacer es que esto viva por su propia 
 
 ![Carcasa](./imagenes/carcasa03.jpeg)
 
+<br>
+
+La idea principal de esta carcasa es poder soportar cada tipo de placa, además de la utilización de materiales de acero y acrilico. En la cual crecerán semillas de chía
+
+Esto por el mismo motivo del como se articula el secuenciador, es decir, la naturaleza creciendo sobre la rigidez humana
+
 
 ## Placas
 
