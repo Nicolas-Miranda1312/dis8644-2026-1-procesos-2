@@ -70,7 +70,7 @@ Primero que todo, estoy seguro de que este capítulo (5) es muuuuucho más corto
 
 Creo que al pensar en que tenían que ser todas iguales me recordó a cuando en años anteriores teníamos que cumplir con medidas exactas al trabajar en la madera para poder construir varios módulos (de lo que sea) que sean idénticos, lo cual se me hacía difícil debido a que se me olvidaba que había pérdida de milímetros al cortar con las herramientas. Tal vez mi reflexión es que no quiero volver a pañol.
 
-![Film, Yoko Ono](./imagenes7film.png)
+![Film, Yoko Ono](./imagenes/film.png)
 
 Esta pieza se me hace muy linda debido a la última frase: 
 
